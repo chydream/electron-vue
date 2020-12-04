@@ -106,6 +106,7 @@ export default {
     }
   },
   created () {
+    console.log(this.$store)
   },
   methods: {
     handleChange (value, direction, movedKeys) {
